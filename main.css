@@ -1,7 +1,7 @@
 
 
 h2{
-color: bisque;
+color: rgb(167, 8, 215);
 font-size: 2.5rem;
 
 }
@@ -13,4 +13,18 @@ font-size: 2.5rem;
 
 #titulo-section {
     color:blueviolet;
+}
+
+header {
+ background-color:antiquewhite;
+ border-radius: 12px;
+ 
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 5px;
+    display:flex;
+    justify-content:space-around;
 }

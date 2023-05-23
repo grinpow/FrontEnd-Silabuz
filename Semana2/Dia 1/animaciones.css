@@ -1,0 +1,39 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.texto-animado{
+
+animation-name:texto-volador;
+animation-duration: 4s;
+animation-iteration-count: infinite;    
+border: solid;
+
+}
+
+@keyframes texto-volador{
+    from{
+        margin-left: 100%;
+        width: 300%;
+        background-color: red;
+        border: none;
+
+    }
+    to{
+        margin-left:-100%;
+        background-color: blue;
+        color: white;
+        border: none;
+
+
+    }
+        
+    
+}

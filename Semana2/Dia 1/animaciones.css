@@ -8,27 +8,26 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow-x: hidden;
 }
-
+/*
 .texto-animado{
 
 animation-name:texto-volador;
 animation-duration: 4s;
 animation-iteration-count: infinite;    
 border: solid;
-
 }
 
 @keyframes texto-volador{
     from{
         margin-left: 100%;
         width: 300%;
-        background-color: red;
+        background-color: purple;
         border: none;
 
     }
     to{
         margin-left:-100%;
-        background-color: blue;
+        background-color: rgb(61, 61, 199);
         color: white;
         border: none;
 
@@ -36,4 +35,55 @@ border: solid;
     }
         
     
+}
+
+*/
+
+.imagen-resize{
+    animation-name: imagen-resize;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes imagen-resize{
+    from{
+        width: 200px;
+        height: 200px;
+    }
+
+    to{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    animation-name: box-animation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box-animation{
+    0%{
+        background-image:url(https://images7.memedroid.com/images/UPLOADED795/5f952eece5da8.jpeg);
+    }
+    25%{
+        background-color: brown;
+    }
+    75%{
+        background-color: red;
+
+    }
+
+    100% {
+        background-color: aquamarine;
+    }
+
+
 }

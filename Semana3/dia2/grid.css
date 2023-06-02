@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+
+    grid-template-columns:  200px 600px auto 200px;
+    grid-template-rows: 200px 300px auto 200px
+}
+
+.container div{
+    padding:10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.item{
+    background: blue;
+    border: yellow solid 4px;
+    grid-row: 1/2;
+}
+
